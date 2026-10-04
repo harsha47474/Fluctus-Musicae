@@ -1,0 +1,18 @@
+/* Tailwind v4 — use @import instead of @tailwind directives */
+@import "tailwindcss";
+
+/* Remove default margin/padding and use border-box sizing everywhere */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+}
